@@ -1,0 +1,99 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #312F2F;
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+/* NavBar starts here*/
+#navbar {
+	width: 100%;
+	height: 50px;
+	background-color: #EBF2FA;
+	min-width: 600px;
+	border-bottom: 1px solid #9B424D;
+	border-top: 1px solid #9B424D;
+	z-index: 9999;
+
+}
+
+#navbar > #logo {
+	height: 100%;
+	vertical-align: middle;
+ }
+
+ #navbar > ul {
+ 	display: inline;
+ 	float: right;
+ }
+
+ #navbar > ul > li {
+ 	list-style: none;
+ 	display: inline-block;
+ 	float: right;
+ 	color: #9B424D;
+ }
+
+  #navbar > ul > li > a:hover {
+ 	background-color: #312F2F;
+ 	transition: 1s;
+ }
+
+ #navbar > ul >li > a {
+ 	font-size: 30px;
+ 	text-decoration: none;
+ 	color: #9B424D;
+ 	padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 0.5px;
+    padding-top: 16px;
+ 	transition: 1s;
+ } 
+/* NavBar ends here*/
+
+
+
+
+/* Footer starts here*/
+#footer {
+	bottom: 0px;
+	width: 100%;
+	height: 35px;
+	background-color: #EBF2FA;
+	min-width: 600px;
+	border-bottom: 1px solid #9B424D;
+	border-top: 1px solid #9B424D;
+	z-index: 9999;
+}
+
+#footer > p {
+	padding-right: 50px;
+	padding-left: 50px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #9B424D;
+}
+
+#footer > p > a {
+	text-align: center;
+	text-decoration: none
+}
+/* Footer ends here*/
+
+
+
+
+
+
+
+/* Simple placeholder text div*/
+.home-text {
+    top: 15%;
+    font-size: 45px;
+    text-align: center;
+    margin: 20px;
+    color: #FFFFFF;
+}
